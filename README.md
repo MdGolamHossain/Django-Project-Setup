@@ -55,3 +55,18 @@ using uv
 uv venv
 uv pip install django
 ```
+
+
+
+# Django Project Setup
+
+using uv: Virtual environment is ready
+```
+uv init
+```
+If you run python
+```
+uv run python -V
+```
+
+
