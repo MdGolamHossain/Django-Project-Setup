@@ -51,6 +51,7 @@ env\Scripts\activate
 pip install django
 
 using uv
+
 uv venv
 uv pip install django
 ```
