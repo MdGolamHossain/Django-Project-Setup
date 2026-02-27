@@ -96,5 +96,67 @@ uv run python manage.py runserver
 uv run python manage.py uvicorn
 ```
 
+# Django Admin
+uv run python manage.py migrate কী?
+
+👉 এটি database setup করার command।
+
+🔹 migrate কী করে?
+
+Django default কিছু table তৈরি করে:
+
+✅ users
+✅ admin
+✅ permissions
+✅ sessions
+
+👉 এই table গুলো database এ তৈরি হয়।
+
+```
+uv run python manage.py migrate
+```
+## Django Admin কী?
+
+👉 Django Admin = ready-made dashboard
+যেখান থেকে তুমি database manage করতে পারো।
+
+📌 এটি Django এর সবচেয়ে powerful feature।
+
+🔹 Admin দিয়ে কী করা যায়?
+
+✅ user add/delete
+✅ data manage
+✅ content control
+✅ permissions manage
+✅ app data edit
+
+👉 coding ছাড়াই database control 😲
+
+## Admin ব্যবহার করতে যা করতে হবে
+migrate run
+```
+uv run python manage.py migrate
+```
+
+# superuser তৈরি 
+
+username
+email
+password
+
+```
+uv run python manage.py createsuperuser
+```
+
+## admin panel open
+
+http://127.0.0.1:8000/admin
+
+
+
+
+
+
+
 
 
