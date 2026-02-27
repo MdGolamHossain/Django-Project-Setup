@@ -11,7 +11,8 @@ uv হলো একটি modern Python tool যা:
 
 ** Windows এ uv ইনস্টল **
 PowerShell খুলে লিখো:
-`
+
+```
 pip install uv
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
-`
+```
