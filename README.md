@@ -77,11 +77,23 @@ uv add django
 এখন Django project তৈরি করলে প্রয়োজনীয় সব file & structure automatic তৈরি হয়ে যায় — এটাকেই scaffold বলা হয়।
 
 👉 Scaffold = project চালানোর জন্য দরকারি basic structure auto তৈরি।
+Note: single dot (.) mane je directorty ache seta and doulbe dot (..) mane parent directory
 
 ## Django project scaffold তৈরি:
 
 ```
-uv run django-admin startproject config . Note: single dot (.) mane je directorty ache seta and doulbe dot (..) mane parent directory
+uv run django-admin startproject config .
+```
+
+## Run Project
+with django built-in server
+```
+uv run python manage.py runserver
+```
+
+## For Production 
+```
+uv run python manage.py uvicorn
 ```
 
 
