@@ -148,6 +148,13 @@ password
 uv run python manage.py createsuperuser
 ```
 
+
+## Djongo run server 
+```
+uv run python manage.py runserver
+```
+
+
 ## admin panel open
 
 http://127.0.0.1:8000/admin
