@@ -210,6 +210,30 @@ python manage.py startapp book
 je kono app bananor pore amader akta file create korte hoy urls.py example book app er modde vanate hobe urls.py
 
 
+# project run
+
+
+1st
+
+```
+python .\manage.py makemigrations
+
+```
+
+2nd
+
+```
+python .\manage.py migrate
+```
+
+3rd
+
+```
+python .\manage.py runserver
+
+```
+
+
 
 
 
