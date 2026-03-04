@@ -163,6 +163,60 @@ http://127.0.0.1:8000/admin
 
 
 
+# Suing Pip
+
+Create virtual environment
+
+```
+python -m venv .venv
+
+```
+## Activate 
+```
+.venv\Scripts\activate
+```
+
+## Django setup
+
+install django
+
+```
+pip install django
+
+```
+
+# Create requirements.txt
+create requirements.tex in project folder then wright this command. requirement.txt file a sob library niye asbe
+
+```
+pip freeze > .\requirements.txt
+```
+
+## Django project create
+
+config ta root app 
+
+```
+django-admin startproject config .
+```
+
+## Create book app
+
+```
+python manage.py startapp book
+
+```
+
+je kono app bananor pore amader akta file create korte hoy urls.py example book app er modde vanate hobe urls.py
+
+
+
+
+
+
+
+
+
 
 
 
