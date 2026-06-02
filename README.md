@@ -284,7 +284,12 @@ python manage.py runserver
 
 
 
+# Create First App
+ 1. inside the project directory, use the startapp command to add apps
+```
+python manage.py startapp myapp
 
+```
 
 
 
