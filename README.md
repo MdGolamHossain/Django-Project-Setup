@@ -235,6 +235,77 @@ python .\manage.py runserver
 
 
 
+# Create First Django Project 
+1. Make a new project folder
+
+```
+makdir main_project
+cd main_project
+```
+
+2. Create a virtual environment inside the project folder
+
+```
+python -m venv venv
+python3 -m venv venv ( if python -m venv venv not working )
+
+```
+
+3. Activate the virtual environment
+ ```
+
+Windows: venv\Scripts\activate
+Linux/macOS: source venv/bin/activate
+
+```
+
+
+4. install Django inside project folder ( ifter activate virtual environment )
+
+```
+pip install django
+pip3 install django
+```
+
+5. Create Start the Django Project
+
+```
+Django-admin startproject config .
+
+```
+
+6. Run Your Project
+
+
+```
+python manage.py runserver
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
