@@ -299,6 +299,11 @@ python manage.py migrate
 
 ```
 
+#Migratoin 
+```
+python manage.py makemigrations
+```
+
 
 
 
