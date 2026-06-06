@@ -291,6 +291,14 @@ python manage.py startapp myapp
 
 ```
 
+# Default Model - migration database table
+
+# run migration command
+```
+python manage.py migrate
+
+```
+
 
 
 
