@@ -260,7 +260,7 @@ Linux/macOS: source venv/bin/activate
 ```
 
 
-4. install Django inside project folder ( ifter activate virtual environment )
+4. install Django inside project folder ( efter activate virtual environment )
 
 ```
 pip install django
@@ -299,10 +299,52 @@ python manage.py migrate
 
 ```
 
-#Migratoin 
+#Create new table ( in Models.py )
+```
+class Book(models.Model):
+    id = models.AutoField(primary_key=True)
+    text = models.CharField(max_length=100)
+    lastName= models.CharField(max_length=50)
+```
+
+# Then Migratoins 
 ```
 python manage.py makemigrations
 ```
+
+# Apply Migrations
+```
+python manage.py migrate
+```
+
+# Modify Model-Migration-database table
+1. Add New Column
+2. Change Column Name
+3. Change Column Data Type
+4. Remove Column
+5. Change Model name Table name
+
+# 1. Add new Column
+```
+class Book(models.Model):
+    id = models.AutoField(primary_key=True)
+    text = models.CharField(max_length=100)
+    lastName= models.CharField(max_length=50)
+    des= models.CharField(max_length=300, null=True) # Added new column 
+
+
+
+```
+for execute write 3 terminal command
+```
+1. enable virtual environment : venv\Scripts\activate
+2. python manage.py makemigrations
+3. If need check to plan: python manage.py migrate --plan
+4. python manage.py migrate
+```
+
+
+
 
 
 
