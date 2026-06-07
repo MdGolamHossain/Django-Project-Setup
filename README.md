@@ -348,12 +348,27 @@ for execute write 3 terminal command
 
 
 
+# db.sqlite3 SQLite-এ অনেক সময় foreign key checking disabled থাকে।
 
+1. Check Django Shell: ( Foreign Key Constraint Disabled)
 
+```
+python manage.py dbshell
 
+then
 
+PRAGMA foreign_keys;
 
+if reslut 0 তাহলে Foreign Key check বন্ধ।
 
+```
+
+if reslut 0 তাহলে Foreign Key check বন্ধ।
+
+#  Foreign Key ON ( enabled )
+```
+PRAGMA foreign_keys = ON;
+```
 
 
 
